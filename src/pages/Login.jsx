@@ -29,7 +29,7 @@ const navigateRegister = ()=>{
     
          try {
           // success scope
-          const res = await axios.post("http://143.198.82.254:5000/userLogin", reqBody);
+          const res = await axios.post("http://178.128.97.167/userLogin", reqBody);
           console.log(res);
           alert("Login successful!");
           cookies.set('token', res.data.token);

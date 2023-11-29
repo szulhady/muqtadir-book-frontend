@@ -23,7 +23,7 @@ const handleSubmit =async(e)=>{
 
      try {
       // success scope
-      const res = await axios.post("http://143.198.82.254:5000/userRegistration", reqBody);
+      const res = await axios.post("http://178.128.97.167/userRegistration", reqBody);
       console.log(res);
       alert("Registration successful!");
       // redirect to login page

@@ -66,7 +66,7 @@ const Sell = (props) =>{
                   imageUrl
                 }
                 try {
-                  const res = await axios.post("http://143.198.82.254:5000/upload", reqBody);
+                  const res = await axios.post("http://178.128.97.167/upload", reqBody);
                   console.log(res);
                   alert("Successful!");
                   window.location.reload(false);

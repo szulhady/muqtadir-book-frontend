@@ -55,7 +55,7 @@ import {
             const config ={
                 headers:{Authorization:`Bearer ${token}`}
             };
-            const res= await axios.get("http://143.198.82.254:5000/protectedController", config)
+            const res= await axios.get("http://178.128.97.167/protectedController", config)
             console.log(res)
             setUserID(res.data.data.user)
             console.log("USER ID",userID)

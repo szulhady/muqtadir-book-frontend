@@ -12,7 +12,7 @@ const Home = () =>{
 
     const fetchData = async () => {
         try {
-          const response = await fetch('http://143.198.82.254:5000/fetchdata');
+          const response = await fetch('http://178.128.97.167/fetchdata');
           const result = await response.json();
           setData(result.data);
           console.log(data)
